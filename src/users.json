@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+  "username": "Jacques Gluke",
+  "tag": "guy",
+  "location": "Ocho Rios, Jamaica",
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "stats": {
+    "followers": 5603,
+    "views": 4827,
+    "likes": 1308
+  }
+},
+{
+  "id": 2,
+  "username": "Piter Parker",
+  "tag": "super_hero",
+  "location": "New Yourk, USA",
+  "avatar": "https://cdn-icons.flaticon.com/png/512/1090/premium/1090806.png?token=exp=1638989719~hmac=578030b5592acdb945a50ba03e516727",
+  "stats": {
+    "followers": 11111,
+    "views": 111,
+    "likes": 10101010
+  }
+},
+{
+  "id": 3,
+  "username": "Harry Potter",
+  "tag": "wizard",
+  "location": "Hogwarts, Mystery",
+  "avatar": "https://cdn-icons-png.flaticon.com/512/1601/1601065.png",
+  "stats": {
+    "followers": 6666,
+    "views": 666,
+    "likes": 99999
+  }
+}
+]
