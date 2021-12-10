@@ -4,6 +4,8 @@ import StatisticList from './components/statisticList';
 import statisticData from './statisticData.json';
 import FriendsList from './components/friendsList';
 import friends from './friends.json';
+import TransactionsTable from './components/transactionsTable';
+import transactions from './transactions.json';
 
 export default function App() {
   return (
@@ -19,6 +21,10 @@ export default function App() {
       <section class="friends">
         <h2 class="title">Friends</h2>
         <FriendsList friends={friends} />
+      </section>
+      <section class="transactions">
+        <h2 class="title">Transactions</h2>
+        <TransactionsTable transactions={transactions} />
       </section>
     </div>
   );
