@@ -1,0 +1,22 @@
+.section-transactions {
+  margin: auto;
+  max-width: 1600px;
+}
+
+.transaction-history {
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 15px;
+  background-color: rgb(241, 221, 127);
+}
+
+td {
+  padding: 10px 20px;
+  background-color: lightslategrey;
+  border-radius: 5px;
+  color: azure;
+}

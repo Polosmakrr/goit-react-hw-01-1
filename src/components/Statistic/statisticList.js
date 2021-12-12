@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types';
+import '../Statistic/Statistic.css';
 
 function StatisticList({ items, title }) {
   return (
-    <div>
-      {title && <h2 class="title">{title}</h2>}
-      <ul class="stat-list">
+    <div className="statistics-box">
+      {title && <h2 className="stat-title">{title}</h2>}
+      <ul className="stat-list">
         {items.map(item => (
-          <li class="item" key={item.id}>
-            <span class="label"> {item.label} </span>
-            <span class="percentage"> {item.percentage} </span>
+          <li className="stat-item" key={item.id}>
+            <span className="label"> {item.label} </span>
+            <span className="percentage"> {item.percentage} </span>
           </li>
         ))}
       </ul>

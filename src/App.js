@@ -16,6 +16,7 @@ export default function App() {
         <ProfileList items={Users} />
       </section>
       <section className="section-statistics">
+        <h2 className="title">Statistics</h2>
         <StatisticList title="Upload stats" items={statisticData} />;
       </section>
       <section className="section-friends">

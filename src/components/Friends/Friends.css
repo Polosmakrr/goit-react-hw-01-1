@@ -1,0 +1,38 @@
+.section-friends {
+  margin: auto;
+  max-width: 1600px;
+}
+
+.friend-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.friend-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 350px;
+  margin-bottom: 30px;
+  border: 1px solid grey;
+}
+
+.friend-avatar {
+  width: 100px;
+  padding-right: 25px;
+}
+
+.online {
+  color: green;
+  font-size: 60px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.offline {
+  color: red;
+  font-size: 60px;
+  padding-left: 10px;
+  padding-right: 20px;
+}

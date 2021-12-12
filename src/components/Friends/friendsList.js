@@ -2,10 +2,14 @@ import Friends from './Friends';
 
 function FriendsList({ friends }) {
   return (
-    <ul class="friend-list">
+    <ul className="friend-list">
       {friends.map(friend => (
-        <li key={friend.id} class={friend.isOnline}>
-          {friend.isOnline ? <span>Online</span> : <span>Offline</span>}
+        <li key={friend.id} className="friend-item">
+          {friend.isOnline ? (
+            <span className="online">&bull;</span>
+          ) : (
+            <span className="offline">&bull;</span>
+          )}
           <Friends
             avatarImg={friend.avatar}
             name={friend.name}
