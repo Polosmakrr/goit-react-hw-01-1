@@ -2,9 +2,9 @@ import Profile from './Profile';
 
 function ProfileList({ items }) {
   return (
-    <ul>
+    <ul className="profile">
       {items.map(item => (
-        <li key={item.id}>
+        <li key={item.id} className="profile-box">
           <Profile
             username={item.username}
             tag={item.tag}

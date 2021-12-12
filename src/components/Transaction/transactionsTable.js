@@ -1,4 +1,4 @@
-import Transactions from './Transaction';
+import Transactions from '../Transaction/Transaction';
 
 function TransactionsTable({ transactions }) {
   return (
